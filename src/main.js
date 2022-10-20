@@ -119,6 +119,5 @@ expirationDateMasked.on("accept", () => {
 
 function updateExpirationDate(date) {
   const ccExpiration = document.querySelector(".cc-extra .value")
-
   ccExpiration.innerText = date.length === 0 ? "02/32" : date
 }
